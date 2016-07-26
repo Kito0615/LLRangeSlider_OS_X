@@ -159,6 +159,8 @@
 {
     _smallerCellLayer.highlighted = NO;
     _biggerCellLayer.highlighted = NO;
+    
+    [self updateLayerFrames];
 }
 
 - (BOOL)isVertical
